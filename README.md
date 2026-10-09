@@ -29,6 +29,7 @@ O AVIF Studio converte imagens individuais ou milhares de arquivos de uma só ve
 | Opção | Arquivo | Descrição |
 |---|---|---|
 | Instalador | `AVIF-Studio-Setup-1.0.0.exe` | Inno Setup 6. Suporta `/SILENT` e `/VERYSILENT`. |
+| Portátil   | `AVIF-Studio-1.00.zip`        | Portátil                                         |
 
 ## 🚀 Uso rápido
 
@@ -48,11 +49,6 @@ O AVIF Studio converte imagens individuais ou milhares de arquivos de uma só ve
 | `.heic` `.jng` `.jp2` `.ps` `.raw` | ⛔ Reconhecido, erro específico por arquivo (sem decodificador incluído — ver `docs/DECISOES.md`) |
 
 A extensão nunca é prova de validade: o conteúdo é verificado na decodificação.
-
-Pacote portátil + checksums: `scripts/build-release.ps1`.
-Instalador: compile `installer/avif-studio.iss` com o Inno Setup 6.
-
-Detalhes de arquitetura e decisões em [`docs/DECISOES.md`](docs/DECISOES.md).
 
 ## 🗺️ Roteiro
 
